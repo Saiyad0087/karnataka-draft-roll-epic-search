@@ -12,8 +12,9 @@ export function Coverage() {
           id="coverage-heading"
           className="text-xs font-semibold uppercase tracking-wide text-inkSoft"
         >
-          Currently covered
+          SIR Draft Roll Coverage
         </h2>
+
         <span className="font-mono text-xs text-inkSoft">
           {COVERED_PARTS.length} Parts • {TOTAL_RECORDS.toLocaleString()} records
         </span>
@@ -26,6 +27,7 @@ export function Coverage() {
             className="flex items-center justify-between rounded-lg bg-paper px-3 py-2 text-sm"
           >
             <span className="text-ink">Part {part}</span>
+
             <span className="font-mono text-inkSoft">
               Ward {String(PART_TO_WARD[part]).padStart(2, "0")}
             </span>

@@ -5,12 +5,14 @@ export function Disclaimer() {
         Independent community search utility. Not an official Election
         Commission website.
       </p>
+
       <p className="mt-2 text-inkSoft">
-        Always verify your details in the original Draft Electoral Roll.
+        Always verify your details in the original SIR Draft Electoral Roll.
       </p>
+
       <p className="mt-2 text-inkSoft">
         This tool only helps locate the Part and Serial Number using an EPIC
-        number. The original Draft Electoral Roll remains the source for
+        number. The original SIR Draft Electoral Roll remains the source for
         verification.
       </p>
     </section>
