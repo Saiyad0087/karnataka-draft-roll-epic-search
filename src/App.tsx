@@ -27,7 +27,7 @@ export default function App() {
         {result && (
           <div className="mt-5">
             {result.found ? (
-              <SearchResult result={result} />
+              <SearchResult key={result.epic} result={result} />
             ) : (
               <NotFound />
             )}
